@@ -1,0 +1,27 @@
+{
+  "name": "homework_2",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize-css": "normalize.css#~3.0.3",
+    "lightbox2": "~2.8.2",
+    "jquery-ui": "~1.11.4",
+    "modernizr": "~3.2.0"
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "./dist/css/select2.css",
+        "./dist/js/select2.js"
+      ]
+    }
+  },
+  "overrides": {
+    "jquery-ui": {
+      "main": [
+        "./themes/base/slider.css",
+        "./jquery-ui.min.js",
+        "./ui/slider.js"
+      ]
+    }
+  }
+}
