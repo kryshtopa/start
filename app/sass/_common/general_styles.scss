@@ -1,0 +1,35 @@
+@import "_common/mixins.scss";
+
+* {
+  box-sizing: border-box;
+}
+html, body, {
+  height: 100%;
+  font-size: 16px;
+  font-family: OpenSans-Regular;
+}
+.wrapper {
+  min-width: 100%;
+}
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+Sticky Footer
+--------------------------------------------------------------*/
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 60px;
+  }
+}
+.site-footer {
+  height: 60px;
+}

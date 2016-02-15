@@ -57,7 +57,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('sass', function () {
-    gulp.src('app/sass/style.scss')
+    gulp.src('app/sass')
         .pipe(plumber())
         .pipe(compass({
             config_file: 'config.rb',

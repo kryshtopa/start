@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+.site-footer {
+  min-width: 100%;
+  background-color: limegreen;
+  color: white;
+  position: relative;
+}
+.site-footer__copyright {
+  display: block;
+  font-family: "OpenSans-Semibold";
+  font-size: 1em;
+  line-height: 1.1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  @include absolute-center;
+}
+.site-footer__link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
