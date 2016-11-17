@@ -1,0 +1,66 @@
+/* adjustment */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: OpenSans-Regular;
+}
+
+.wrapper {
+  min-width: 100%;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Sticky Footer */
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 60px;
+}
+
+.site-footer {
+  height: 60px;
+}
+
+/* sections */
+/* Footer */
+.site-footer {
+  min-width: 100%;
+  background-color: limegreen;
+  color: white;
+  position: relative;
+}
+
+.site-footer__copyright {
+  display: block;
+  font-family: "OpenSans-Semibold";
+  font-size: 1em;
+  line-height: 1.1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.site-footer__link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+/* responsive */

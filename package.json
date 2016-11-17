@@ -1,19 +1,24 @@
 {
-  "name": "",
-  "devDependencies": {
-    "browser-sync": "^2.10.1",
-    "gulp": "^3.9.0",
-    "gulp-compass": "^2.1.0",
-    "gulp-filter": "^3.0.1",
-    "gulp-if": "^2.0.0",
-    "gulp-imagemin": "^2.4.0",
-    "gulp-jade": "^1.1.0",
-    "gulp-minify-css": "^1.2.3",
-    "gulp-plumber": "^1.0.1",
-    "gulp-rimraf": "^0.2.0",
-    "gulp-size": "^2.0.0",
-    "gulp-uglify": "^1.5.1",
-    "gulp-useref": "^3.0.4",
-    "wiredep": "^3.0.0"
-  }
+    "name": "name",
+    "version": "1.0.0",
+    "repository": { 
+        "type" : "git",
+        "url" : "https://github.com/npm/npm.git"
+    },
+    "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-pug": "latest",
+    "gulp-compass": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-filter": "latest",
+    "gulp-if": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-plumber": "latest",
+    "gulp-size": "latest",
+    "gulp-uglify": "latest",
+    "gulp-useref": "latest",
+    "gulp-rimraf": "latest",
+    "wiredep": "latest"
+    }
 }

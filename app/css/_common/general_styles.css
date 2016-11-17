@@ -1,5 +1,3 @@
-@import "_common/mixins.scss";
-
 * {
   box-sizing: border-box;
 }
@@ -25,13 +23,11 @@ body {
 .wrapper {
   min-height: 100%;
   margin-bottom: -60px;
-
-  &:after {
-    content: "";
-    display: block;
-    height: 60px;
-  }
-
+}
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 60px;
 }
 
 .site-footer {

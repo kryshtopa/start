@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "dependencies": {
-    "jquery": "~2.1.4",
-    "normalize-css": "normalize.css#~3.0.3"
-  }
+	"name": "Project",
+	"dependencies": {
+		"jquery": "latest",
+		"normalize-css": "normalize.css#~3.0.3"
+	}
 }

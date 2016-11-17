@@ -1,12 +1,10 @@
-/* --------- adjustment --------- */
-
+/* adjustment */
+@import "_common/variables.scss";
 @import "_common/general_styles.scss";
 @import "_common/mixins.scss";
 
-/* --------- sections --------- */
-
+/* sections */
 @import "_styles/footer.scss";
 
-/* --------- adaptive --------- */
-
-@import "_common/adaptive.scss";
+/* responsive */
+@import "_common/responsive.scss";
